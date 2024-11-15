@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+    <head>
+        <title>TABELKI</title>
+        <meta charset="UTF-8">
+        <style>
+            body
+            {
+                background-color: black;
+                color: blue;
+                font-family: calibri ;
+                margin: 0;
+                padding: 10px;
+                text-align: center;
+            }
+
+            table
+            {
+                border-collapse: collapse;
+                margin: 20px auto;
+                color: green;
+            }
+
+            th, td
+            {
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                border: 1px solid white;
+            }
+
+            th
+            {
+                font-weight: bold;
+                color: green;
+            }
+
+            .ini
+            {
+                background-color: black;
+                color: blue;
+                font-weight: bold;
+            }
+        </style>
+        <style type="text/css" id="operaUserStyle"></style>
+    </head>
+    <body>
+        <h1>Tabela bez scalania</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>F</th>
+                    <th>G</th>
+                    <th>H</th>
+                    <th>I</th>
+                    <th>J</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>K</th>
+                    <th>L</th>
+                    <th>M</th>
+                    <th>N</th>
+                    <th>O</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th>P</th>
+                    <th>Q</th>
+                    <th>R</th>
+                    <th>S</th>
+                    <th>T</th>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th>U</th>
+                    <th>V</th>
+                    <th>W</th>
+                    <th>Y</th>
+                    <th>Z</th>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Tabela z scalaniem</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>A</th>
+                    <td colspan="2">B, C</td>
+                    <td colspan="2" class="ini">M, J</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>F</th>
+                    <th>G</th>
+                    <th>H</th>
+                    <th>I</th>
+                    <th>J</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>K</th>
+                    <th>L</th>
+                    <th>M</th>
+                    <th>N</th>
+                    <th>O</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td colspan="3" rowspan="2">P, Q, R, U, V, W</td>
+                    <td>S</td>
+                    <td>T</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th>Y</th>
+                    <th>Z</th>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Tabela ze scalonymi inicjałami</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>A</th>
+                    <th>B</th>
+                    <td colspan="3" class="ini">M, J</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>F</th>
+                    <th>G</th>
+                    <th>H</th>
+                    <th>I</th>
+                    <th>J</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>K</th>
+                    <th>L</th>
+                    <th>M</th>
+                    <th>N</th>
+                    <th>O</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th>P</th>
+                    <th>Q</th>
+                    <th>R</th>
+                    <th>S</th>
+                    <th>T</th>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th>U</th>
+                    <th>V</th>
+                    <th>W</th>
+                    <th>Y</th>
+                    <th>Z</th>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+    
+        
